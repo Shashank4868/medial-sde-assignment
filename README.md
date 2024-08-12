@@ -1,8 +1,18 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
 
-First, run the development server:
+First, download the necesary packages required to run the app:
+
+```bash
+npm i
+```
+
+## Setting up project
+
+Now, setup the project by creating a `.env` file in the root of the project.
+
+Add your `Uploadthing` credentials in the `.env` file to get access to uploadthing's API.
+
+Now, you can run the development server using:
 
 ```bash
 npm run dev
@@ -16,9 +26,6 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Learn More
 
